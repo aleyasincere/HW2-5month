@@ -2,7 +2,7 @@ import { types } from "./types";
 
 export function asyncFn(users) {
   return {
-    type: types.ASYNC_FN,
+    type: types.ASYNC_SS,
     payload: users,
   };
 }
@@ -18,7 +18,7 @@ export function asyncFunctionFetch() {
 
 export function asyncFunctionTwo(object) {
   return {
-    type: types.ASYNC_ONE,
+    type: types.ASYNC,
     payload: object,
   };
 }

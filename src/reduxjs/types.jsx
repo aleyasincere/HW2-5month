@@ -1,5 +1,4 @@
 export const types = {
-  CHANGE: "CHANGE",
-  ASYNC_FN: "ASYNC_FN",
-  ASYNC_ONE: "ASYNC_ONE",
+  ASYNC_SS: "ASYNC_SS",
+  ASYNC: "ASYNC",
 };
